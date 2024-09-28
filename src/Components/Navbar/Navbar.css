@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: beige;
+  position: fixed;
+  width: 100%;
+  align-items: end;
+}
+
+.logo {
+  width: 5em;
+  height: auto;
+  margin-left: 8rem;
+  align-items: end;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 10rem;
+  font-size: 2rem;
+}
+
+.resume {
+  margin-right: 7rem;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  background: #de6161;
+  background: -webkit-linear-gradient(to right, #2657eb, #de6161);
+  background: linear-gradient(to right, #2657eb, #de6161);
+  cursor: pointer;
+}
+
+.bxs-download {
+  padding-left: 5px;
+  font-size: 2rem;
+}
+
+.resume:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+  border: 2px solid black;
+}
+
+
+
+

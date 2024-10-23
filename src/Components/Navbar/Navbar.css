@@ -2,10 +2,13 @@
   display: flex;
   justify-content: center;
   justify-content: space-between;
-  background-color: beige;
+  background-color: #161513;
   position: fixed;
+  z-index: 100;
   width: 100%;
+  height: 12vh;
   align-items: end;
+  padding-bottom: 5px;
 }
 
 .logo {
@@ -18,8 +21,26 @@
 .nav-menu {
   display: flex;
   list-style: none;
-  gap: 10rem;
+  gap: 8rem;
   font-size: 2rem;
+}
+
+.anchor-link{
+  text-decoration: none;
+  color: white;
+}
+
+.anchor-link:hover {
+  background: #9796f0;
+  background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);
+  background: linear-gradient(to right, #fbc7d4, #9796f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.anchor-link:active {
+
 }
 
 .resume {
@@ -43,7 +64,7 @@
 .resume:hover {
   transform: scale(1.05);
   transition: 0.2s;
-  border: 2px solid black;
+  border: 3px solid indianred;
 }
 
 

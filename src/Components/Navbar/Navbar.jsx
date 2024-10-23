@@ -6,13 +6,13 @@ import logo from '../../assets/logo.jpg'
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <a href="#"><img className='logo' src={logo} alt="" /></a>
+      <AnchorLink className='anchor-link' offset={() => 90} href='#home'><img className='logo' src={logo} alt="" /></AnchorLink>
 
       <ul className="nav-menu">
-        <li><AnchorLink className='anchor-link' offset={() => 100} href='#home'>Home</AnchorLink></li>
-        <li><AnchorLink className='anchor-link' offset={() => 100} href='#about'>About</AnchorLink></li>
-        <li><AnchorLink className='anchor-link' offset={() => 100} href='#project'>Projects</AnchorLink></li>
-        <li><AnchorLink className='anchor-link' offset={() => 100} href='#contact'>Contact</AnchorLink></li>
+        <li><AnchorLink className='anchor-link' offset={() => 90} href='#home'>Home</AnchorLink></li>
+        <li><AnchorLink className='anchor-link' offset={() => 90} href='#about'>About</AnchorLink></li>
+        <li><AnchorLink className='anchor-link' offset={() => 90} href='#project'>Projects</AnchorLink></li>
+        <li><AnchorLink className='anchor-link' offset={() => 90} href='#contact'>Contact</AnchorLink></li>
       </ul>
 
       <button className="resume">
